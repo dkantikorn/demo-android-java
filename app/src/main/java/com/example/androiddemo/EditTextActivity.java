@@ -3,13 +3,15 @@ package com.example.androiddemo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class editTextActivity extends AppCompatActivity {
+public class EditTextActivity extends AppCompatActivity {
 
     Button btnSubmit;
     EditText name, password, email, dob, phoneno;
@@ -39,6 +41,8 @@ public class editTextActivity extends AppCompatActivity {
                                 dob.getText().toString().isEmpty() ||
                                 phoneno.getText().toString().isEmpty()
                 ) {
+                    result.setTextColor(Color.parseColor("#FF0000"));
+                    result.setTypeface(Typeface.DEFAULT_BOLD);
                     result.setText("Please fill all the detail");
                 } else {
                     result.setText("Name -  " + name.getText().toString() + " \n" + "Password -  " + password.getText().toString()

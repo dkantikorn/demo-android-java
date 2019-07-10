@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CheckBoxActivity">
+
+
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Java" />
+
+    <CheckBox
+        android:id="@+id/chkPython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Python" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="Android" />
+
+    <CheckBox
+        android:id="@+id/chkAngular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:padding="10dp"
+        android:text="AngularJS" />
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Get Details" />
+
+</LinearLayout>

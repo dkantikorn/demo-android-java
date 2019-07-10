@@ -88,8 +88,82 @@
             android:text="Edit Text Tutorial"
             android:textColor="#F44336"
             android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="#CDDC39"/>
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGotoButtonTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnGotoButtonTutorial"
+            android:text="Button Tutorial"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGotoCheckboxTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnGotoCheckboxTutorial"
+            android:text="Check box Tutorial"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGotoRedioButtonTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnGotoRedioButtonTutorial"
+            android:text="Redio button Tutorial"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGotoSpinnerDropdownListTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnGotoSpinnerDropdownListTutorial"
+            android:text="Spinner / Dropdown List button Tutorial"
+            android:textColor="#F44336"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 
