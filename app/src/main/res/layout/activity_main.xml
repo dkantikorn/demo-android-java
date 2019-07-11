@@ -1,170 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="10dp"
-    android:orientation="vertical"
-    android:padding="10dp">
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
 
 
-    <TextView
-        android:id="@+id/textView1"
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Welcome to Tutlane"
+            android:textColor="#86AD33"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#7F3AB5"
+            android:text="Welcome to Tutlane"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email|web"
+            android:text="For more details visit http://tutlane.com and send mail to support@tutlane.com" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="OnclickBtnRegister"
+                android:text="Register"
+                android:textColor="#009688"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onclickBtnLogin"
+                android:text="Login"
+                android:textColor="#FF9800"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGotoEditTextTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onclickbtnGotoEditTextTutorial"
+                android:text="Edit Text Tutorial"
+                android:textColor="#F44336"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGotoButtonTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onclickbtnGotoButtonTutorial"
+                android:text="Button Tutorial"
+                android:textColor="#F44336"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGotoCheckboxTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onclickbtnGotoCheckboxTutorial"
+                android:text="Check box Tutorial"
+                android:textColor="#F44336"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGotoRedioButtonTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onclickbtnGotoRedioButtonTutorial"
+                android:text="Redio button Tutorial"
+                android:textColor="#F44336"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGotoSpinnerDropdownListTutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onclickbtnGotoSpinnerDropdownListTutorial"
+                android:text="Spinner / Dropdown List button Tutorial"
+                android:textColor="#F44336"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLinearLayoutTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnLinearLayoutTutorial"
+            android:text="Linear Layout Tutorial"
+            android:textColor="#00897B"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/btnRelativeLayoutTutorial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="Welcome to Tutlane"
-        android:textColor="#86AD33"
-        android:textSize="20dp"
+        android:layout_weight="1"
+        android:onClick="onclickbtnRelativeLayoutTutorial"
+        android:text="Relative Layout Tutorial"
+        android:textColor="#00897B"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:textAllCaps="true" />
-
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:background="#7F3AB5"
-        android:text="Welcome to Tutlane"
-        android:textColor="#fff"
-        android:textStyle="bold" />
-
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="email|web"
-        android:text="For more details visit http://tutlane.com and send mail to support@tutlane.com" />
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal">
-
         <Button
-            android:id="@+id/btnRegister"
+            android:id="@+id/btnTableLayoutTutorial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:onClick="OnclickBtnRegister"
-            android:text="Register"
-            android:textColor="#009688"
+            android:onClick="onclickbtnTableLayoutTutorial"
+            android:text="Table Layout Tutorial"
+            android:textColor="#00897B"
             android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnFrameLayoutTutorial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:onClick="onclickBtnLogin"
-            android:text="Login"
-            android:textColor="#FF9800"
+            android:onClick="onclickbtnFrameLayoutTutorial"
+            android:text="Frame Layout Tutorial"
+            android:textColor="#00897B"
             android:textSize="15sp"
             android:textStyle="bold" />
-    </LinearLayout>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnGotoEditTextTutorial"
+            android:id="@+id/btnWebviewTutorial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="onclickbtnGotoEditTextTutorial"
-            android:text="Edit Text Tutorial"
-            android:textColor="#F44336"
+            android:onClick="onclickbtnWebviewTutorial"
+            android:text="WebView Tutorial"
+            android:textColor="#00897B"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnListviewTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnListviewTutorial"
+            android:text="ListView Tutorial"
+            android:textColor="#00897B"
             android:textSize="15sp"
             android:textStyle="bold" />
 
     </LinearLayout>
-
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnGotoButtonTutorial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onclickbtnGotoButtonTutorial"
-            android:text="Button Tutorial"
-            android:textColor="#F44336"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnGotoCheckboxTutorial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onclickbtnGotoCheckboxTutorial"
-            android:text="Check box Tutorial"
-            android:textColor="#F44336"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnGotoRedioButtonTutorial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onclickbtnGotoRedioButtonTutorial"
-            android:text="Redio button Tutorial"
-            android:textColor="#F44336"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnGotoSpinnerDropdownListTutorial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onclickbtnGotoSpinnerDropdownListTutorial"
-            android:text="Spinner / Dropdown List button Tutorial"
-            android:textColor="#F44336"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-
-</LinearLayout>
+</ScrollView>

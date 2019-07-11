@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,6 +50,40 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclickbtnGotoSpinnerDropdownListTutorial(View view) {
         Intent intent = new Intent(getApplicationContext(), SpinnerDropdownListActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickbtnLinearLayoutTutorial(View view) {
+        Intent intent = new Intent(getApplicationContext(), LinearLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickbtnRelativeLayoutTutorial(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), RelativeLayoutActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void onclickbtnTableLayoutTutorial(View view) {
+        Intent intent = new Intent(getApplicationContext(), TableLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickbtnFrameLayoutTutorial(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), FrameLayoutActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void onclickbtnWebviewTutorial(View view) {
+        Intent intent = new Intent(getApplicationContext(), WebviewActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickbtnListviewTutorial(View view) {
+        Intent intent = new Intent(getApplicationContext(), ListviewActivity.class);
         startActivity(intent);
     }
 }
