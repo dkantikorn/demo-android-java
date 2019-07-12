@@ -12,9 +12,9 @@ import android.widget.LinearLayout;
 
 //import android.support.v4.view.ViewPager;
 //import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
+//import android.os.Bundle;
+//import android.util.Log;
+//import android.view.LayoutInflater;
 import android.view.MotionEvent;
 //import android.view.View;
 //import android.widget.ImageButton;
@@ -37,7 +37,7 @@ public class DemoViewPagerActivity extends AppCompatActivity implements ViewPage
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_demo_view_pager);
 
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         pager_indicator = (LinearLayout) findViewById(R.id.viewPagerCountDots);
