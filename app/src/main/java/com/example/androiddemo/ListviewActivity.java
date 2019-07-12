@@ -67,4 +67,11 @@ public class ListviewActivity extends AppCompatActivity {
 
         return results;
     }
+
+    public void onclickbtnFlagmentTutorial(View view) {
+    }
+
+    public void onclickbtnViewPagerTutorial(View view) {
+
+    }
 }

@@ -240,5 +240,28 @@
             android:textSize="15sp"
             android:textStyle="bold" />
 
+
+        <Button
+            android:id="@+id/btnFlagmentTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnFlagmentTutorial"
+            android:text="Flagment Tutorial"
+            android:textColor="#3949AB"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnViewPagerTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclickbtnViewPagerTutorial"
+            android:text="View Pager Tutorial"
+            android:textColor="#3949AB"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </ScrollView>

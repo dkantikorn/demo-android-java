@@ -86,4 +86,17 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ListviewActivity.class);
         startActivity(intent);
     }
+
+    public void onclickbtnFlagmentTutorial(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), FlagmentActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickbtnViewPagerTutorial(View view) {
+
+        Intent intent = new Intent(getApplicationContext(), DemoViewPagerActivity.class);
+        startActivity(intent);
+
+    }
 }

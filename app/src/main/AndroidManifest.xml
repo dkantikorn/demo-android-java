@@ -15,7 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ListviewActivity"></activity>
+        <activity android:name=".DemoViewPagerActivity"></activity>
+        <activity android:name=".FlagmentActivity" />
+        <activity android:name=".ListviewActivity" />
         <activity android:name=".WebviewActivity" />
         <activity android:name=".FrameLayoutActivity" />
         <activity android:name=".TableLayoutActivity" />
